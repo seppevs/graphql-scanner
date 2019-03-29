@@ -1,7 +1,7 @@
 {
   "name": "graphql-scanner",
   "version": "0.0.1",
-  "description": "Define your GraphQL typeDefs and resolvers in separate types",
+  "description": "Define your GraphQL types in separate files",
   "engines": {
     "node": ">=8"
   },
