@@ -107,7 +107,7 @@ module.exports = {
 
 ### Use the GraphQL Scanner
 
-You need to pass in a directory path.
+You need to pass the path to your directory that contain your types.
 
 For example:
 
@@ -129,7 +129,7 @@ The `graphqlScanner(dir)` expression scans your types and returns an object cont
 You can then pass these `typeDefs` and `resolvers` to your favourite GraphQL server library.
 
 ## How does it work?
-[Check the code, it's peanuts!](https://github.com/seppevs/graphql-scanner/blob/master/src/graphql-scanner.js)
+[Check the code](https://github.com/seppevs/graphql-scanner/blob/master/src/graphql-scanner.js), it's less than 20 lines!
 
 It uses [require-all](https://www.npmjs.com/package/require-all) to load all modules in the `dir` you've passed as an argument
 
