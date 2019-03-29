@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`graphql-scanner should work 1`] = `
+"
+      type Query {
+        currentUser: User
+      }
+    
+      type TodoList {
+        subject: String!
+        tasks: [String]
+      }
+    
+      type User {
+        firstName: String!
+        lastName: String
+        apikey: String
+        todoLists: [TodoList]
+      }
+    "
+`;
+
+exports[`graphql-scanner should work 2`] = `
+Object {
+  "Query": Object {
+    "currentUser": [Function],
+  },
+  "TodoList": Object {
+    "tasks": [Function],
+  },
+  "User": Object {
+    "todoLists": [Function],
+  },
+}
+`;
