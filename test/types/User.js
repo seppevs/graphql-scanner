@@ -4,6 +4,7 @@ module.exports = {
         firstName: String!
         lastName: String
         apikey: String
+        country: Country
         todoLists: [TodoList]
       }
     `,

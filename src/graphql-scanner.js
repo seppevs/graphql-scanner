@@ -11,7 +11,9 @@ module.exports = (dir) => {
     const value = modules[key];
     const { typeDef, resolver } = value;
     typeDefs += typeDef;
-    resolvers[key] = resolver;
+    if (resolver) {
+      resolvers[key] = resolver;
+    }
   });
 
   return { typeDefs, resolvers };

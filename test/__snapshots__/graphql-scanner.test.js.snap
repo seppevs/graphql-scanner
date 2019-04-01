@@ -2,6 +2,10 @@
 
 exports[`graphql-scanner should work 1`] = `
 "
+      type Country {
+        code: String!
+      }
+    
       type Query {
         currentUser: User
       }
@@ -15,6 +19,7 @@ exports[`graphql-scanner should work 1`] = `
         firstName: String!
         lastName: String
         apikey: String
+        country: Country
         todoLists: [TodoList]
       }
     "
