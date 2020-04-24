@@ -1,6 +1,6 @@
 {
   "name": "graphql-scanner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Define your GraphQL types in separate files",
   "engines": {
     "node": ">=8"
